@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { images } from './data';
 import styles from './products.module.css'
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Products() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -52,8 +53,11 @@ export default function Products() {
         {filteredImages.map(image => (
           <Link href={`/${image.urlPath}`}>
             <div key={image.id} className={styles.card}>
-              <img src={image.url} alt={image.name}
-                className={styles.img} />
+              <Image 
+                src={image.url} 
+                alt={image.name}
+                width={140}
+                height={120} />
               <p className={styles.nama}>Name: {image.name}</p>
               <p className={styles.nama}>HS Code: {image.hsCode}</p>
               <p className={styles.nama}></p>
