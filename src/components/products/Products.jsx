@@ -51,8 +51,8 @@ export default function Products() {
       </div>
       <div className={styles.badan}>
         {filteredImages.map(image => (
-          <Link href={`/${image.urlPath}`}>
-            <div key={image.id} className={styles.card}>
+          <Link href={`/${image.urlPath}`} key={image.id}>
+            <div className={styles.card}>
               <Image 
                 src={image.url} 
                 alt={image.name}
