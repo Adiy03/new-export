@@ -51,10 +51,10 @@ export default function Products() {
       </div>
       <div className={styles.badan}>
         {filteredImages.map(image => (
-          <Link href={`/${image.urlPath}`} key={image.id}>
+          <Link href={`/${image.urlPath}`} key={`${image.id}-${image.urlPath}`}>
             <div className={styles.card}>
-              <Image 
-                src={image.url} 
+              <Image
+                src={image.url}
                 alt={image.name}
                 width={140}
                 height={120} />
@@ -65,6 +65,7 @@ export default function Products() {
           </Link>
         ))}
       </div>
+
     </div>
   );
 }
