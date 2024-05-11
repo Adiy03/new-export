@@ -21,7 +21,7 @@ const Service = () => {
 
           We serve as a bridge between Indonesian manufacturers and the international market, offering easy and efficient access to a variety of flagship products from Indonesia <br /><br />
           
-          With a focus on global wholesale trade, we aim to expand Indonesia's export footprint worldwide, enabling our customers to easily enjoy the diversity and quality of Indonesian products.
+          With a focus on global wholesale trade, we aim to expand Indonesias export footprint worldwide, enabling our customers to easily enjoy the diversity and quality of Indonesian products.
           </p>
         </div>
       </div>
