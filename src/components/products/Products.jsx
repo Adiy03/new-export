@@ -43,7 +43,8 @@ export default function Products() {
           <button className={styles.tagBtn}
             key={tag}
             onClick={() => setSelectedTag(tag === 'all' ? '' : tag)}
-            style={{ marginRight: '5px', marginBottom: '5px', backgroundColor: selectedTag === tag ? 'blue' : 'gray', color: 'white' }}
+            style={{ backgroundColor: selectedTag === tag ? 'beige' : 'teal', 
+                     color: selectedTag === tag ? 'black' : 'white' }}
           >
             {tag.toUpperCase()}
           </button>
@@ -56,8 +57,9 @@ export default function Products() {
               <Image 
                 src={image.url} 
                 alt={image.name}
-                width={140}
-                height={120} />
+                width={135}
+                height={120}
+                className={styles.imgCard} />
               <p className={styles.nama}>Name: {image.name}</p>
               <p className={styles.nama}>HS Code: {image.hsCode}</p>
               <p className={styles.nama}></p>

@@ -29,16 +29,16 @@
 }
 
 .titleTag{
-    background-color: azure;
+    /* background-color: azure; */
     width: 100%;
     justify-content: center;
     text-align: center;
-    height: 10vh;
+    height: 5vh;
     /* padding-top: 1rem; */
 }
 
 .tagBtn{
-    height: 3rem;
+    /* height: 3rem; */
     width: fit-content;
     padding: 5px;
     border-radius: 12px;
@@ -59,29 +59,35 @@
 }
 
 .badan{
-    background-color: beige;
+    /* background-color: beige; */
     height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 1rem 5rem;
     overflow: scroll;
-    /* height: 100vh; */
+    height: 60vh;
+    margin-top: 1rem;
 }
 
 .card{
     width: 140px;
     height: 200px;
-    margin-right: 1.5rem;
+    margin-right: 2rem;
     /* background-color: blue; */
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     justify-content: center;
-    background-color: #fff;
+    background-color: #eee;
+    border: 1px solid gray;
+    border-radius: 12px;
 }
 
-.img{
-    width: 140px;
-    height: 120px;
+.card:hover{
+    color: teal;
+}
+
+.imgCard{
+    border-radius: 12px;
 }
 
 .nama{
