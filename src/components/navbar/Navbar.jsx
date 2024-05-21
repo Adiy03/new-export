@@ -60,7 +60,16 @@ const Navbar = () => {
           alt="Picture of the author"
           className={styles.logo}
         />
-        EasyExports <span className={styles.span}>ID</span>
+        EasyExport<span className={styles.span}>ID</span>
+      </Link>
+      <Link href="/" className={styles.logo2}>
+      <Image
+          src="/wa.webp"
+          width={50}
+          height={50}
+          alt="Picture of the author"
+          className={styles.logo}
+        />
       </Link>
       <div className={styles.links}>
         {links.map((link) => (

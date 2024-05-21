@@ -14,10 +14,23 @@
   top: 0;
 }
 
+.logo2{
+  display: none;
+}
+
 .links {
   display: flex;
   align-items: center;
   gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
+  .logo2{
+    display: flex;
+  }
 }
 
 .sticky {

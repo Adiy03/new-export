@@ -1,23 +1,34 @@
-.container{
-    display: flex;
-    height: 50vh;
-    padding: 2rem 5rem;
+.container {
+  display: flex;
+  height: 50vh;
+  padding: 2rem 5rem;
 }
 
-.kiri{
-    flex: 1;
+.kiri {
+  flex: 1;
 }
 
-.kanan{
-    flex: 1;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding-right: 1rem;
+.kanan {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
 }
 
-.desc{
-    line-height: 1.5rem;
-    font-size: 1.1rem;
-    /* background-color: bisque; */
+.desc {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  /* background-color: bisque; */
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .kanan {
+    padding: 1rem;
+  }
 }

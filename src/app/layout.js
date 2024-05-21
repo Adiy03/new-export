@@ -3,7 +3,10 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Whatsapp from "@/components/whatsapp/Whatsapp";
 
-const karla = Karla({ subsets: ["latin"] });
+const karla = Karla({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: "new export web",

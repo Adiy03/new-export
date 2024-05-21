@@ -1,0 +1,48 @@
+.container{
+    /* background-color: azure; */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.kiri{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.atas{
+    flex: 1;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.bawah{
+    flex: 2;
+    padding: 1rem;
+}
+
+.bawah li{
+    list-style: none;
+    margin-top: 3px;
+    /* border-bottom: 1px solid black; */
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.kanan{
+    flex: 3;
+    background-color: bisque;
+}
+
+.penawaran{
+    text-align: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3rem;
+}

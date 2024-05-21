@@ -26,7 +26,7 @@ export default function Products() {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Products</h2>
+      {/* <h2 className={styles.title}>Products</h2> */}
       <div className={styles.searchBox}>
         <input className={styles.input}
           type="text"
