@@ -39,34 +39,39 @@ export default function Products() {
         --- Or Sort By Category ---
       </div>
       <div className={styles.titleTag}>
-        {['all', 'nature', 'cars', 'people'].map(tag => (
+        {['all', 'agriculture', 'cars', 'people'].map(tag => (
           <button className={styles.tagBtn}
             key={tag}
             onClick={() => setSelectedTag(tag === 'all' ? '' : tag)}
-            style={{ backgroundColor: selectedTag === tag ? 'beige' : 'teal', 
-                     color: selectedTag === tag ? 'black' : 'white' }}
+            style={{
+              backgroundColor: selectedTag === tag ? 'beige' : 'teal',
+              color: selectedTag === tag ? 'black' : 'white'
+            }}
           >
             {tag.toUpperCase()}
           </button>
         ))}
       </div>
       <div className={styles.badan}>
-        {filteredImages.map(image => (
-          <Link href={`/${image.urlPath}`} key={image.id}>
-            <div className={styles.card}>
-              <Image 
-                src={image.url} 
-                alt={image.name}
-                width={135}
-                height={120}
-                className={styles.imgCard} />
-              <p className={styles.nama}>Name: {image.name}</p>
-              <p className={styles.nama}>HS Code: {image.hsCode}</p>
-              <p className={styles.nama}></p>
-            </div>
-          </Link>
-        ))}
+        {filteredImages
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map(image => (
+            <Link href={`/${image.urlPath}`} key={image.id}>
+              <div className={styles.card}>
+                <Image
+                  src={image.url}
+                  alt={image.name}
+                  width={135}
+                  height={120}
+                  className={styles.imgCard} />
+                <p className={styles.nama}>{image.name}</p>
+                <p className={styles.nama}>{image.hsCode}</p>
+                <p className={styles.nama}></p>
+              </div>
+            </Link>
+          ))}
       </div>
+
     </div>
   );
 }
