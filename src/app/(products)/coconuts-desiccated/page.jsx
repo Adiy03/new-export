@@ -3,7 +3,7 @@ import styles from '../products.module.css'
 import Image from 'next/image'
 
 export const metadata = {
-  title: "Desiccated coconuts Indonesia Wholesale Trade",
+  title: "Desiccated coconuts | EasyExportID",
 };
 
 const Products = () => {
@@ -34,7 +34,7 @@ const Products = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Desiccated coconuts</h1><br />
+          <h1 className={styles.title}>Buy Bulk Desiccated coconuts indonesia wholesale</h1><br />
           <h2 className={styles.title}>What is Desiccated coconuts ?</h2>
           <div className={styles.desc}>
             Desiccated coconuts refers to the dried and shredded or grated meat of a mature coconuts. The difference between coconuts and desiccated coconuts is desiccated coconuts has smaller, finer flecks, with less flavor than shredded coconuts <br /><br />
@@ -114,7 +114,7 @@ const Products = () => {
 
             Both varieties are rich in essential minerals like iron, manganese, and copper, contributing to various bodily functions including oxygen transport, antioxidant defense, and bone health <br /><br />
 
-            <h2 className={styles.title}>Desiccatrd coconuts Spesification:</h2>
+            <h2 className={styles.title}>Desiccated coconuts Spesification:</h2>
 
             <div className={styles.split}>
               <div className={styles.split_kiri}>
@@ -153,7 +153,7 @@ const Products = () => {
             Indonesian desiccated coconuts is available in different grades based on granularity, such as fine, medium, and coarse, catering to diverse culinary and industrial needs <br /><br />
 
             <h2 className={styles.title}>
-              Buy Desiccated coconuts Indonesia Wholesale Trade
+              Bulk Buy Desiccated coconuts Indonesia Wholesale Trade
             </h2>
 
             <div className={styles.imgBotBx}>
