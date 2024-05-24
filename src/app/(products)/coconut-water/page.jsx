@@ -3,7 +3,7 @@ import styles from '../products.module.css'
 import Image from 'next/image'
 
 export const metadata = {
-  title: "Coconut Water | EasyExportID",
+  title: "Coconut Milk - EasyExportID | Indonesia Wholesale Trade",
 };
 
 const Product = () => {

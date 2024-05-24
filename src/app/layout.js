@@ -12,7 +12,6 @@ const karla = Karla({
 
 export const metadata = {
   title: "EasyExportID | Indonesia Wholesale Trade",
-  description: "EasyExportID.site is an export company based in Indonesia, specializing in global wholesale trade",
   icons: {
     icon: "https://easyexportid.site/logo.jpg",
     apple: "https://easyexportid.site/logo.jpg",
