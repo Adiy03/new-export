@@ -62,7 +62,7 @@ const Navbar = () => {
         />
         EasyExport<span className={styles.span}>ID</span>
       </Link>
-      <Link href="/" className={styles.logo2}>
+      <Link href="https://wa.me/6285155032886?text=Hi EasyExportID, I want to make some Inquiry!" target="_blank" id="toggle1" className={styles.logo2}>
       <Image
           src="/wa.webp"
           width={50}

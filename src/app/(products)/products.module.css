@@ -65,6 +65,14 @@
   text-transform: capitalize;
 }
 
+.title_background{
+    font-weight: 100;
+    color: teal;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    background-color: azure;
+}
+
 .desc {
   line-height: 1.5rem;
   font-size: 1rem;
@@ -73,6 +81,10 @@
 
 .ul {
   padding-left: 1rem;
+}
+
+.li{
+  padding-left: 4rem;
 }
 
 .split {
@@ -169,4 +181,13 @@
   width: 100%;
   justify-content: center;
   padding: 0 5rem;
+}
+
+.imgFloat{
+  float: right; /* or right if you want the image on the right */
+  margin: 0 15px; /* Adjust margin to add space around the image */
+  width: 150px;
+  background-color: azure;
+  border-radius: 50%;
+  /* border: 1px solid teal; */
 }
