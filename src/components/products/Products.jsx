@@ -39,7 +39,7 @@ export default function Products() {
         --- Or Sort By Category ---
       </div>
       <div className={styles.titleTag}>
-        {['all', 'agriculture', 'cars', 'people'].map(tag => (
+        {['all', 'agriculture', 'food & beverages', 'people'].map(tag => (
           <button className={styles.tagBtn}
             key={tag}
             onClick={() => setSelectedTag(tag === 'all' ? '' : tag)}

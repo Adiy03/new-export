@@ -14,7 +14,7 @@ const Product = () => {
           <div className={styles.atas}>
             <Image
               className={styles.img}
-              src="/comilkpowder.png"
+              src="/comilk2.jpg"
               width={500}
               height={500}
               alt="buy bulk coconut milk from EasyExportID"
