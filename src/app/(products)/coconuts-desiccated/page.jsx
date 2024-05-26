@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
+import { info } from '@/lib/info';
 
 export const metadata = {
-  title: "Desiccated coconuts - EasyExportID | Indonesia Wholesale Trade",
+  title: "Desiccated coconuts - Indonesia Wholesale",
 };
 
 const Products = () => {
@@ -14,15 +15,15 @@ const Products = () => {
           <div className={styles.atas}>
             <Image
               className={styles.img}
-              src="/desiccated-coconut.jpg"
+              src="/coconut/desiccated-coconut.jpg"
               width={100}
               height={100}
-              alt="desiccated coconuts from easyexportid"
+              alt="bulk buy desiccated coconuts Indonesia wholesale"
             />
           </div>
           <div className={styles.bawah}>
             <ul>
-              <li className={styles.title2}>Desiccated coconuts</li>
+              <div className={styles.title2}>Desiccated coconuts</div>
               <li>HS Code : 080111</li>
               <li>MOQ     : 20 FT / 350 bags</li>
               <li>Incoterm : FOB</li>
@@ -34,7 +35,7 @@ const Products = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Buy Bulk Desiccated coconuts indonesia wholesale</h1><br />
+          <h1 className={styles.title}>Bulk buy Desiccated coconuts - {info.compname}</h1><br />
           <h2 className={styles.title}>What is Desiccated coconuts ?</h2>
           <div className={styles.desc}>
             Desiccated coconuts refers to the dried and shredded or grated meat of a mature coconuts. The difference between coconuts and desiccated coconuts is desiccated coconuts has smaller, finer flecks, with less flavor than shredded coconuts <br /><br />
@@ -57,7 +58,7 @@ const Products = () => {
                   <li>Moist and tender</li>
                   <li>Can be shredded, flaked, or powdered, usually with a creamy white color</li>
                   <Image
-                    src="/high-fat.webp"
+                    src="/coconut/high-fat.webp"
                     width={250}
                     height={150}
                     alt="High Fat Desiccated coconuts from EasyExportID"
@@ -73,7 +74,7 @@ const Products = () => {
                   <li>Drier and less tender</li>
                   <li>Similar in form to high fat desiccated coconuts but typically lighter and drier</li>
                   <Image
-                    src="/low-fat.jpg"
+                    src="/coconut/low-fat.jpg"
                     width={250}
                     height={150}
                     alt="Low Fat Desiccated coconuts from EasyExportID"
@@ -160,7 +161,7 @@ const Products = () => {
               <div className={styles.imgBot}>
                 <Image
                   // className={styles.img}
-                  src="/dc2.png"
+                  src="/coconut/dc2.png"
                   width={230}
                   height={200}
                   alt="desiccated coconuts from easyexportid"
@@ -172,7 +173,7 @@ const Products = () => {
               <div className={styles.imgBot}>
                 <Image
                   // className={styles.img}
-                  src="/dc1.png"
+                  src="/coconut/dc1.png"
                   width={230}
                   height={200}
                   alt="desiccated coconuts from easyexportid"
@@ -184,7 +185,7 @@ const Products = () => {
               <div className={styles.imgBot}>
                 <Image
                   // className={styles.img}
-                  src="/dc3.png"
+                  src="/coconut/dc3.png"
                   width={230}
                   height={200}
                   alt="desiccated coconuts from easyexportid"

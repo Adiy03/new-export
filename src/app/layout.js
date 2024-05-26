@@ -11,7 +11,7 @@ const karla = Karla({
 })
 
 export const metadata = {
-  title: "EasyExportID | Indonesia Wholesale Trade",
+  title: "EasyExportID | Easy Find & Export Indonesia Wholesale Products",
   icons: {
     icon: "https://easyexportid.site/logo.jpg",
     apple: "https://easyexportid.site/logo.jpg",

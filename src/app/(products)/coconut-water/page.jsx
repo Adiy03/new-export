@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
+import { info } from '@/lib/info';
 
 export const metadata = {
-  title: "Coconut Milk - EasyExportID | Indonesia Wholesale Trade",
+  title: "Coconut Milk - Indonesia Wholesale",
 };
 
 const Product = () => {
@@ -14,10 +15,10 @@ const Product = () => {
           <div className={styles.atas}>
             <Image
               className={styles.img}
-              src="/cowat3.webp"
+              src="/coconut/cowat3.webp"
               width={500}
               height={500}
-              alt="desiccated coconuts from easyexportid"
+              alt="bulk desiccated coconuts"
             />
           </div>
           <div className={styles.bawah}>
@@ -30,11 +31,10 @@ const Product = () => {
               <li>Payment : To be discussed</li>
               <li>Packaging : In Description</li>
             </ul>
-            {/* <button className={styles.penawaran}>penawaran</button> */}
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Buy Bulk Coconut Water Indonesia Wholesale</h1>
+          <h1 className={styles.title}>Bulk Buy Coconut Water - {info.compname}</h1>
           <div className={styles.desc}>
             Coconut water, the clear liquid found inside young green coconuts, has gained popularity as a health drink due to its hydrating properties and nutritional benefits <br /><br />
 
@@ -106,10 +106,10 @@ const Product = () => {
             <div className={styles.imgBot}>
               <Image
                 // className={styles.img}
-                src="/cowa5.jpg"
+                src="/coconut/cowa5.jpg"
                 width={230}
                 height={200}
-                alt="bulk wholesale coconut water from easyexportid"
+                alt="bulk buy wholesale coconut water Indonesia wholesale"
               />
               <div className={styles.imgDesc}>
                 Coconut water @1 liter Tetra Pack
@@ -118,10 +118,10 @@ const Product = () => {
             <div className={styles.imgBot}>
               <Image
                 // className={styles.img}
-                src="/cowa4.jpg"
+                src="/coconut/cowa4.jpg"
                 width={230}
                 height={200}
-                alt="bulk wholesale coconut water from easyexportid"
+                alt="bulk buy coconut water Indonesia Wholesale"
               />
               <div className={styles.imgDesc}>
                 Coconut water @20 L aseptic bag
@@ -130,10 +130,10 @@ const Product = () => {
             <div className={styles.imgBot}>
               <Image
                 // className={styles.img}
-                src="/cowa2.png"
+                src="/coconut/cowa2.png"
                 width={230}
                 height={200}
-                alt="bulk wholesale coconut water from easyexportid"
+                alt="bulk buy coconut water Indonesia wholesale"
               />
               <div className={styles.imgDesc}>
                 Coconut water @200 liter in drum

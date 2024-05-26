@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
+import { info } from '@/lib/info';
 
 export const metadata = {
-  title: "Coconut Milk - EasyExportID | Indonesia wholesale Trade",
+  title: "Coconut Milk - Indonesia wholesale Trade",
 };
 
 const Product = () => {
@@ -14,15 +15,15 @@ const Product = () => {
           <div className={styles.atas}>
             <Image
               className={styles.img}
-              src="/comilk2.jpg"
+              src="/coconut/comilk2.jpg"
               width={500}
               height={500}
-              alt="buy bulk coconut milk from EasyExportID"
+              alt="bulk buy coconut milk Indonesia wholesale"
             />
           </div>
           <div className={styles.bawah}>
             <ul>
-              <div className={styles.title_background}>Coconut Milk</div>
+              <div className={styles.title2}>Coconut Milk</div>
               <li>HS Code : 20081910</li>
               <li>MOQ     : 20 FT Container</li>
               <li>Incoterm : FOB</li>
@@ -30,12 +31,11 @@ const Product = () => {
               <li>Payment : To be discussed</li>
               <li>Packaging : In Description</li>
             </ul>
-            {/* <button className={styles.penawaran}>penawaran</button> */}
           </div>
         </div>
         <div className={styles.kanan}>
           <h1 className={styles.title}>
-            Buy Bulk Coconut Milk Indonesia Wholesale
+            Bulk buy Coconut Milk - {info.compname}
           </h1>
           <div className={styles.desc}>
             <h2 className={styles.title}>
@@ -58,10 +58,10 @@ const Product = () => {
                 <h3 className={styles.title}>HS Code: 22029990 <br />
                   (Other non-alcoholic beverages, not including fruit or vegetable juices)</h3>
                 <Image
-                  src="/cowa5.jpg"
+                  src="/coconut/cowa5.jpg"
                   width={250}
                   height={150}
-                  alt="buy bulk coconut milk drink from EasyExportID"
+                  alt="Bulk buy coconut milk drink Indonesia wholesale"
                   className={styles.imgFloat}
                 />
                 Coconut milk drinks are a popular plant-based alternative to dairy milk, appreciated for their creamy texture and subtle coconut flavor. They are made from diluted coconut milk and often fortified with vitamins and minerals to enhance their nutritional profile<br /><br />
@@ -109,10 +109,10 @@ const Product = () => {
               </h2>
               <h3 className={styles.title}>HS Code: 20081910 (Coconut milk, liquid) </h3>
               <Image
-                src="/freshcomilk.png"
+                src="/coconut/freshcomilk.png"
                 width={250}
                 height={150}
-                alt="bulk buy coconut milk from EasyExportID"
+                alt="bulk buy coconut milk Indonesia wholesale"
                 className={styles.imgFloat}
               />
               <b>Coconut Milk:</b> Coconut milk is a versatile ingredient derived from the flesh of mature coconuts. Made by grating the white flesh of coconuts and soaking it in hot water. The liquid is then strained through cheesecloth or a fine mesh to extract the creamy, white milk. The resulting liquid separates into a thicker cream and a more liquid milk
@@ -167,10 +167,10 @@ const Product = () => {
               </h2>
               <h3 className={styles.title}>HS Code: 20081910 (Coconut milk, liquid) </h3>
               <Image
-                src="/comilk3.jpeg"
+                src="/coconut/comilk3.jpeg"
                 width={250}
                 height={150}
-                alt="bulk buy canned coconut milk from EasyExportID"
+                alt="bulk buy canned coconut milk Indonesia wholesale"
                 className={styles.imgFloat}
               />
               Canned coconut milk is a liquid made from the grated flesh of mature coconuts, combined with water, and then strained to produce a creamy and rich substance. It is widely used in cooking and baking due to its rich texture and distinctive flavor <br /><br />
@@ -220,10 +220,10 @@ const Product = () => {
                 (Food preparations not elsewhere specified or included, which may include whipped cream substitutes)
               </h3>
               <Image
-                src="/cowhip.webp"
+                src="/coconut/cowhip.webp"
                 width={250}
                 height={150}
-                alt="bulk buy coconut whipped cream from EasyExportID"
+                alt="bulk buy coconut whipped cream Indonesia wholesale"
                 className={styles.imgFloat}
               />
               Coconut whipped cream is a dairy-free alternative to traditional whipping cream, made primarily from coconut milk or coconut cream. It&apos;s popular among those who are lactose intolerant, vegan, or simply prefer a plant-based option <br /><br />
@@ -262,10 +262,10 @@ const Product = () => {
                 (Other food preparations not elsewhere specified or included, powdered forms)
               </h3>
               <Image
-                src="/comilkpowder.png"
+                src="/coconut/comilkpowder.png"
                 width={250}
                 height={150}
-                alt="bulk buy coconut milk powder from EasyExportID"
+                alt="bulk buy coconut milk powder Indonesia wholesale"
                 className={styles.imgFloat}
               />
               Coconut milk powder is a versatile ingredient made from dehydrated coconut milk. It offers the rich flavor and creamy texture of coconut milk without the need for refrigeration, making it convenient for a variety of culinary uses <br /><br />
@@ -315,10 +315,10 @@ const Product = () => {
                 Prepared or preserved fruits, nuts, and other edible parts of plants. If the coconut chips have been further processed (e.g., sweetened or preserved),
               </h3>
               <Image
-                src="/cochips2.jpeg"
+                src="/coconut/cochips.webp"
                 width={250}
                 height={150}
-                alt="bulk buy coconut chips from EasyExportID"
+                alt="bulk buy coconut chips Indonesia wholesale"
                 className={styles.imgFloat}
               />
               Coconut chips are thin slices of coconut meat that have been dried and sometimes toasted. They are a popular snack food and ingredient in various dishes due to their crunchy texture and rich, nutty flavor<br /><br />
@@ -354,7 +354,7 @@ const Product = () => {
 
             <br /><br />
 
-            <h2 className={styles.title}>Buy Bulk coconut Milk Indonesia Wholesale Trade</h2>
+            <h2 className={styles.title}>Bulk buy coconut Milk Indonesia Wholesale Trade</h2>
 
             Indonesia is a major player in the global coconut industry, and coconut milk is one of its significant export products. The countrys tropical climate and abundant coconut plantations make it ideal for producing high-quality coconut milk <br /><br />
 

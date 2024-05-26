@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
+import { info } from '@/lib/info';
 
 export const metadata = {
-  title: "Virgin Coconut OIl - EasyExportID | Indonesia Wholesale Trade",
+  title: "Virgin Coconut Oil (VCO) - Indonesia Wholesale",
 };
 
 const Product = () => {
@@ -14,15 +15,15 @@ const Product = () => {
           <div className={styles.atas}>
             <Image
               className={styles.img}
-              src="/vco.webp"
+              src="/coconut/vcojar.png"
               width={500}
               height={500}
-              alt="bulk buy virgin coconut oil from easyexportid"
+              alt="bulk buy virgin coconut oil Indonesia wholesale"
             />
           </div>
           <div className={styles.bawah}>
             <ul>
-              <div className={styles.title2}>Coconut Water</div>
+              <div className={styles.title2}>Virgin Coconut Oil</div>
               <li>HS Code : 15131910</li>
               <li>MOQ     : 20 FT Container</li>
               <li>Incoterm : FOB</li>
@@ -34,7 +35,7 @@ const Product = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Bulk Buy Virgin Coconut Oil Indonesia Wholesale</h1>
+          <h1 className={styles.title}>Bulk Buy Virgin Coconut Oil - {info.compname}</h1>
           <div className={styles.desc}>
             <h2 className={styles.title}>
               Virgin Coconut Oil
