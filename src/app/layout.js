@@ -11,12 +11,14 @@ const karla = Karla({
 })
 
 export const metadata = {
-  title: "EasyExportID | Easy Find & Export Indonesia Wholesale Products",
+  title: "EasyExportID | Indonesia Wholesale",
+  description: "We serve as a bridge between Indonesian manufacturers and the international market, offering easy and efficient access to a variety of flagship products from Indonesia.",
   icons: {
     icon: "https://easyexportid.site/logo.jpg",
     apple: "https://easyexportid.site/logo.jpg",
-  }
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (

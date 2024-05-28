@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { info } from '@/lib/info';
 
 export const metadata = {
-  title: "Coconut Milk - Indonesia Wholesale",
+  title: "Coconut Water - Indonesia Wholesale",
 };
 
 const Product = () => {

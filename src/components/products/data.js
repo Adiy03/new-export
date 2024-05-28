@@ -6,6 +6,7 @@ export const images = [
     { id: 3,  name: 'Coconut Milk', url: '/coconut/comilk2.jpg', tags: ['food & beverages'],  hsCode: 'HS Code : In Desc' , urlPath: './coconut-milk' },
     { id: 4,  name: 'Coconut Oil (VCO)', url: '/coconut/vcojar.png', tags: ['others'],  hsCode: '15131910' , urlPath: './coconut-oil-virgin' },
     { id: 5,  name: 'Coconut Flour', url: '/coconut/coflour1.jpg', tags: ['agriculture'],  hsCode: '110630' , urlPath: './coconut-flour' },
+    { id: 6,  name: 'Coconut Fiber', url: '/coconut/coir11.jpg', tags: ['agriculture'],  hsCode: '530500' , urlPath: './coconut-coir-fiber' },
   ];
   
   
