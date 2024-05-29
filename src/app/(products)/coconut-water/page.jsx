@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { info } from '@/lib/info';
 
 export const metadata = {
-  title: "Coconut Water - Indonesia Wholesale",
+  title: "Coconut Water | Indonesia Wholesale",
 };
 
 const Product = () => {
@@ -34,7 +34,7 @@ const Product = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Bulk Buy Coconut Water - {info.compname}</h1>
+          <h1 className={styles.title}>Coconut Water Bulk Buy - {info.compname}</h1>
           <div className={styles.desc}>
             Coconut water, the clear liquid found inside young green coconuts, has gained popularity as a health drink due to its hydrating properties and nutritional benefits <br /><br />
 

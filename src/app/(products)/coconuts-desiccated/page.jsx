@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { info } from '@/lib/info';
 
 export const metadata = {
-  title: "Desiccated coconuts - Indonesia Wholesale",
+  title: "Desiccated coconuts | Indonesia Wholesale",
 };
 
 const Products = () => {
@@ -35,8 +35,7 @@ const Products = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Bulk buy Desiccated coconuts - {info.compname}</h1><br />
-          <h2 className={styles.title}>What is Desiccated coconuts ?</h2>
+          <h1 className={styles.title}>Desiccated coconuts Bulk buy - {info.compname}</h1><br />
           <div className={styles.desc}>
             Desiccated coconuts refers to the dried and shredded or grated meat of a mature coconuts. The difference between coconuts and desiccated coconuts is desiccated coconuts has smaller, finer flecks, with less flavor than shredded coconuts <br /><br />
 

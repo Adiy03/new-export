@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { info } from '@/lib/info';
 
 export const metadata = {
-  title: "Virgin Coconut Oil (VCO) - Indonesia Wholesale",
+  title: "Virgin Coconut Oil (VCO) | Indonesia Wholesale",
 };
 
 const Product = () => {
@@ -35,7 +35,7 @@ const Product = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Bulk Buy Virgin Coconut Oil - {info.compname}</h1>
+          <h1 className={styles.title}>Virgin Coconut Oil Bulk Buy - {info.compname}</h1>
           <div className={styles.desc}>
             <h2 className={styles.title}>
               Virgin Coconut Oil
