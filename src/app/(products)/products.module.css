@@ -3,6 +3,7 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
+  border-bottom: 4px solid azure;
 }
 
 .kiri {
@@ -44,9 +45,10 @@
   flex: 3;
   padding: 3rem;
   font-size: 16px;
-  padding-right: 15rem;
+  /* padding-right: 15rem; */
   overflow: scroll;
   margin-bottom: 3rem;
+  box-shadow: 4px rgba(0, 0, 0, .2);
   /* background-color: bisque; */
 }
 
@@ -203,4 +205,37 @@
 
 .marright3{
   padding-right: 15rem;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+}
+
+.products{
+  width: 15rem;
+  height: 100vh;
+  border-left: 0 4px 8px rgba(0, 0, 0, .2);;
+}
+
+.seeall{
+  display: flex;
+  text-align: center;
+  width: 15rem;
+  justify-content: center;
+  position: absolute;
+  bottom: 20%;
+  height: 5vh;
+  background-color: azure;
+  font-size: 1rem;
+  color: teal;
+  cursor: pointer;
+  align-items: center;
+}
+
+.title3{
+  text-align: center;
+  margin-top: 1rem;
+  color: teal;
 }

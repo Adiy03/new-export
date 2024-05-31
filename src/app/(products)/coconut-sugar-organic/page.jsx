@@ -43,7 +43,7 @@ const Product = () => {
 
             Organic coconut sugar is a natural sweetener derived from the sap of the flower buds of the coconut palm tree (Cocos nucifera). Unlike refined sugars, it undergoes minimal processing and does not contain additives or artificial ingredients <br /><br />
 
-            To produce coconut sugar, the sap is collected, boiled, and dehydrated until it forms granules or crystals. Being "organic" means that it is produced following organic farming practices without synthetic pesticides, herbicides, or fertilizers
+            To produce coconut sugar, the sap is collected, boiled, and dehydrated until it forms granules or crystals. Being organic means that it is produced following organic farming practices without synthetic pesticides, herbicides, or fertilizers
             <br /><br />
 
             <h2 className={styles.title}>

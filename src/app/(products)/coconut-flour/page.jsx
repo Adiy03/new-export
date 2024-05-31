@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
 import { info } from '@/lib/info';
+import Products from '@/components/products/Products';
 
 export const metadata = {
   title: " Coconut Flour | Indonesia Wholesale",
@@ -58,12 +59,12 @@ const Product = () => {
               Coconut Flour Specifications:
             </h2>
             <Image
-                  src="/coconut/coflour2.png"
-                  width={250}
-                  height={150}
-                  alt="Bulk buy coconut flour Indonesia wholesale"
-                  className={styles.imgFloat2}
-                />
+              src="/coconut/coflour2.png"
+              width={250}
+              height={150}
+              alt="Bulk buy coconut flour Indonesia wholesale"
+              className={styles.imgFloat2}
+            />
             <ul className={styles.ul}>
               <li>Appearance & Colour: Milky white (natural), light brown (roasted)</li>
               <li>Flavour & Taste: Crispy bit sweet roasted craemy taste</li>
@@ -86,6 +87,17 @@ const Product = () => {
             Indonesian coconuts are known for their quality and flavor. This quality is reflected in the coconut flour produced, which may have a richer taste compared to flour from other regions <br /><br />
 
             Indonesia has vast areas suitable for organic coconut cultivation. Organic coconut flour from Indonesia may appeal to health-conscious consumers looking for natural and chemical-free alternatives <br /><br />
+          </div>
+        </div>
+        <div className={styles.products}>
+          <h2 className={styles.title3}>
+            Other Produts
+          </h2>
+          <div className={styles.seeall}>
+            See All Produts
+          </div>
+          <div className={styles.productsList}>
+            
           </div>
         </div>
       </div>
