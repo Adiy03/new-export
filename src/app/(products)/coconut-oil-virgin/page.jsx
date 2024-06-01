@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
 import { info } from '@/lib/info';
+import ProductSide from '@/components/productSide/ProductSide';
 
 export const metadata = {
   title: "Virgin Coconut Oil (VCO) | Indonesia Wholesale",
@@ -35,7 +36,7 @@ const Product = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Virgin Coconut Oil Bulk Buy - {info.compname}</h1>
+          <h1 className={styles.title}>Virgin Coconut Oil Bulk Buy </h1>
           <div className={styles.desc}>
             <h2 className={styles.title}>
               Virgin Coconut Oil
@@ -115,6 +116,7 @@ const Product = () => {
             A significant portion of VCO in Indonesia is produced organically, adhering to strict quality control measures to ensure the purity and natural essence of the oil
           </div>
         </div>
+        <ProductSide />
       </div>
     </>
   )

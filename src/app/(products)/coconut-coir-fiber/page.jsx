@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
 import { info } from '@/lib/info';
+import ProductSide from '@/components/productSide/ProductSide';
 
 export const metadata = {
   title: "Coconut Coir Fiber | Indonesia wholesale",
@@ -35,7 +36,7 @@ const Product = () => {
         </div>
         <div className={styles.kanan}>
           <h1 className={styles.title}>
-            Coconut Fiber Bulk buy - {info.compname}
+            Coconut Fiber Bulk buy 
           </h1>
           <div className={styles.desc}>
             <h2 className={styles.title}>
@@ -206,6 +207,7 @@ const Product = () => {
             <br /><br />
           </div>
         </div>
+        <ProductSide />
       </div>
     </>
   )

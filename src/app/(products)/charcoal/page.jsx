@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
 import { info } from '@/lib/info';
+import ProductSide from '@/components/productSide/ProductSide';
 
 export const metadata = {
   title: " Charcoal | Indonesia Wholesale",
@@ -34,7 +35,7 @@ const Product = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Charcoal Bulk Buy - {info.compname}</h1>
+          <h1 className={styles.title}>Charcoal Bulk Buy</h1>
           <div className={styles.desc}>
 
             <h3 className={styles.title}>HS Code: 4402XX <br />
@@ -223,6 +224,7 @@ const Product = () => {
             Strategic Location: Indonesias geographical location is advantageous for exporting goods. Being in Southeast Asia, it has easy access to major shipping routes, reducing transportation costs and delivery times to key markets in Asia
           </div>
         </div>
+        <ProductSide />
       </div>
     </>
   )

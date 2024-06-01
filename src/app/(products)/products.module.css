@@ -225,7 +225,7 @@
   width: 15rem;
   justify-content: center;
   position: absolute;
-  bottom: 20%;
+  bottom: 16%;
   height: 5vh;
   background-color: azure;
   font-size: 1rem;
@@ -238,4 +238,39 @@
   text-align: center;
   margin-top: 1rem;
   color: teal;
+}
+
+.pitem{
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  background-color: azure;
+  margin-top: .5rem;
+  align-items: center;
+  /* border: 1px solid teal;
+  border-radius: 12px; */
+}
+
+.pitem_img{
+  width: 40%;
+  border-radius: 50%;
+}
+
+.item_img{
+  width: 100%;
+  height: 100%;
+}
+
+.pitem_desc{
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  text-align: left;
+  align-items: center;
+}
+
+.pitem_title{
+  color: teal;
+  font-size: 1.1rem;
+  text-transform: capitalize;
 }

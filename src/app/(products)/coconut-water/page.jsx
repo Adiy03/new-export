@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
 import { info } from '@/lib/info';
+import ProductSide from '@/components/productSide/ProductSide';
 
 export const metadata = {
   title: "Coconut Water | Indonesia Wholesale",
@@ -34,7 +35,7 @@ const Product = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Coconut Water Bulk Buy - {info.compname}</h1>
+          <h1 className={styles.title}>Coconut Water Bulk Buy </h1>
           <div className={styles.desc}>
             Coconut water, the clear liquid found inside young green coconuts, has gained popularity as a health drink due to its hydrating properties and nutritional benefits <br /><br />
 
@@ -142,6 +143,7 @@ const Product = () => {
           </div>
           </div>
         </div>
+        <ProductSide />
       </div>
     </>
   )

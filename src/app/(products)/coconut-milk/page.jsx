@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
 import { info } from '@/lib/info';
+import ProductSide from '@/components/productSide/ProductSide';
 
 export const metadata = {
   title: "Coconut Milk | Indonesia wholesale",
@@ -35,7 +36,7 @@ const Product = () => {
         </div>
         <div className={styles.kanan}>
           <h1 className={styles.title}>
-            Coconut Milk Bulk buy - {info.compname}
+            Coconut Milk Bulk buy 
           </h1>
           <div className={styles.desc}>
             <h2 className={styles.title}>
@@ -365,6 +366,7 @@ const Product = () => {
             Quality Control: Indonesian producers adhere to international quality standards such as ISO and HACCP (Hazard Analysis Critical Control Point). These certifications ensure that the coconut milk is produced under strict hygienic conditions, maintaining high quality and safety standards <br /><br />
           </div>
         </div>
+        <ProductSide />
       </div>
     </>
   )

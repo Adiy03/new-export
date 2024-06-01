@@ -7,31 +7,31 @@ import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 
 const links = [
-  // {
-  //   id: 1,
-  //   title: "Home",
-  //   url: "/",
-  // },
-  // {
-  //   id: 2,
-  //   title: "About",
-  //   url: "/about",
-  // },
-  // {
-  //   id: 3,
-  //   title: "Product",
-  //   url: "/product",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Blog",
-  //   url: "/blog",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Inquiry",
-  //   url: "/inquiry",
-  // },
+  {
+    id: 1,
+    title: "Home",
+    url: "/",
+  },
+  {
+    id: 2,
+    title: "About",
+    url: "/about",
+  },
+  {
+    id: 3,
+    title: "Product",
+    url: "/product",
+  },
+  {
+    id: 4,
+    title: "Blog",
+    url: "/blog",
+  },
+  {
+    id: 5,
+    title: "Inquiry",
+    url: "/inquiry",
+  },
 ];
 
 const Navbar = () => {
@@ -71,13 +71,13 @@ const Navbar = () => {
           className={styles.logo}
         />
       </Link>
-      <div className={styles.links}>
+      {/* <div className={styles.links}>
         {links.map((link) => (
           <Link key={link.id} href={link.url} className={styles.link}>
             {link.title}
           </Link>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

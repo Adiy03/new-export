@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../products.module.css'
 import Image from 'next/image'
 import { info } from '@/lib/info';
+import ProductSide from '@/components/productSide/ProductSide';
 
 export const metadata = {
   title: " Organic Coconut Sugar | Indonesia Wholesale",
@@ -141,6 +142,7 @@ const Product = () => {
             Indonesian organic coconut sugar often comes with various certifications such as USDA Organic, EU Organic, and Fair Trade, providing assurance of quality and adherence to international standards
           </div>
         </div>
+        <ProductSide />
       </div>
     </>
   )

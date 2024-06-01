@@ -3,6 +3,7 @@ import styles from '../products.module.css'
 import Image from 'next/image'
 import { info } from '@/lib/info';
 import Products from '@/components/products/Products';
+import ProductSide from '@/components/productSide/ProductSide';
 
 export const metadata = {
   title: " Coconut Flour | Indonesia Wholesale",
@@ -35,7 +36,7 @@ const Product = () => {
           </div>
         </div>
         <div className={styles.kanan}>
-          <h1 className={styles.title}>Coconut Flour Bulk Buy - {info.compname}</h1>
+          <h1 className={styles.title}>Coconut Flour Bulk Buy </h1>
           <div className={styles.desc}>
             <h2 className={styles.title}>
               Coconut Flour
@@ -89,17 +90,7 @@ const Product = () => {
             Indonesia has vast areas suitable for organic coconut cultivation. Organic coconut flour from Indonesia may appeal to health-conscious consumers looking for natural and chemical-free alternatives <br /><br />
           </div>
         </div>
-        <div className={styles.products}>
-          <h2 className={styles.title3}>
-            Other Produts
-          </h2>
-          <div className={styles.seeall}>
-            See All Produts
-          </div>
-          <div className={styles.productsList}>
-            
-          </div>
-        </div>
+        <ProductSide />
       </div>
     </>
   )
