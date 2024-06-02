@@ -12,6 +12,7 @@ const Service = () => {
           width={400}
           height={250}
           alt="Picture of the author"
+          unoptimized
         />
         </div>
         <div className={styles.kanan}>
